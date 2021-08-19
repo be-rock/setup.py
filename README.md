@@ -32,6 +32,23 @@ wget https://raw.githubusercontent.com/navdeep-G/setup.py/master/setup.py -O set
 curl -O https://raw.githubusercontent.com/navdeep-G/setup.py/master/setup.py
 ```
 
+## How to Use it
+
+### Build
+
+```python
+python setup.py sdist bdist_wheel
+```
+
+### Install
+
+```python
+pip install /path/to/mypackage-0.1.0-py3-none-any.whl
+python
+>>> from mypackage import core
+in mypackage.core
+```
+
 To Do
 -----
 
